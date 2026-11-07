@@ -1,0 +1,9 @@
+/* base/utilities.css — SismoListo, estilos por responsabilidad. */
+
+.disabled {
+  opacity: .5;
+}
+
+.spacer-top {
+  margin-top: 17px;
+}

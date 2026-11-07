@@ -1,0 +1,96 @@
+/* components/buttons.css — SismoListo, estilos por responsabilidad. */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: var(--radius-button);
+  text-decoration: none;
+  font-size: .88rem;
+  font-weight: 750;
+  padding: 12px 18px;
+  min-height: 44px;
+  transition: background .15s,transform .15s;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn-primary {
+  background: var(--green-dark);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #11542b;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #fff;
+  border-color: #cbdced;
+  color: var(--blue);
+}
+
+.btn-secondary:hover {
+  background: var(--blue-pale);
+}
+
+.btn-outline {
+  background: white;
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.btn-outline:hover {
+  background: var(--blue-pale);
+}
+
+.btn-danger {
+  background: #a91d31;
+  color: white;
+}
+
+.btn-mini {
+  padding: 8px 11px;
+  min-height: 36px;
+  font-size: .82rem;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.text-link {
+  border: 0;
+  background: none;
+  color: var(--blue);
+  font-size: .9rem;
+  font-weight: 750;
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.small-button {
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  background: white;
+  border-radius: 8px;
+  color: var(--text);
+  font-size: .85rem;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+/* Estados visuales documentados: default, hover, pressed, focus, disabled. */
+.btn:focus-visible { outline:3px solid var(--blue); outline-offset:3px; }
+.btn:disabled,.btn[aria-disabled="true"] { opacity:.55; filter:grayscale(.25); cursor:not-allowed; box-shadow:none; }

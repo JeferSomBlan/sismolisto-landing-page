@@ -1,0 +1,72 @@
+/* components/forms.css — SismoListo, estilos por responsabilidad. */
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 15px;
+}
+
+.field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.field-group.full {
+  grid-column: 1/-1;
+}
+
+.field-group label,.filter-label,.contact-form label {
+  font-weight: 700;
+  font-size: .85rem;
+  color: #35495e;
+}
+
+.field,.field-group input,.field-group select,.field-group textarea,.contact-form input,.contact-form textarea {
+  width: 100%;
+  border: 1px solid #bfcddd;
+  background: #fff;
+  color: #20384a;
+  border-radius: 9px;
+  min-height: 42px;
+  padding: 10px 12px;
+}
+
+.field-group textarea {
+  min-height: 90px;
+}
+
+.field:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,button:focus-visible,a:focus-visible,summary:focus-visible {
+  outline: 3px solid #ff9c45;
+  outline-offset: 2px;
+}
+
+.field-error {
+  border-color: var(--danger) !important;
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 16px 0 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form .btn {
+  align-self: flex-start;
+}
+
+.form-note {
+  font-size: .8rem;
+  margin: 0;
+}
+
+/* Feedback tras la interacción, sin señalar como inválidos campos aún no utilizados. */
+.contact-form input:user-invalid,.contact-form textarea:user-invalid { border-color:var(--danger); }
+.contact-form input:focus-visible,.contact-form textarea:focus-visible { outline:3px solid var(--blue); }

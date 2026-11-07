@@ -1,0 +1,8 @@
+/* Footer claro: usa el logotipo azul del mockup sin alterar sus colores originales. */
+.site-footer { background:#f5f7fa; padding:32px 0; color:var(--text); border-top:1px solid var(--border); }
+.footer-flex { display:flex; justify-content:space-between; align-items:start; gap:24px; }
+.site-footer p { color:var(--muted); font-size:.83rem; margin:12px 0 0; }
+.footer-brand { color:var(--blue); }
+.footer-links { display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+.footer-links a,.footer-button { font-size:.84rem; color:var(--blue-dark); background:none; border:0; padding:0; text-decoration:none; }
+.footer-links a:hover,.footer-button:hover { text-decoration:underline; }

@@ -1,0 +1,86 @@
+/* features/map.css — SismoListo, estilos por responsabilidad. */
+
+.map-shell {
+  position: relative;
+  margin: 12px auto 22px;
+  width: min(100%,480px);
+  height: 266px;
+  background: repeating-linear-gradient(90deg,#f0f4f8 0px,#f0f4f8 46px,#e0e8f1 47px),repeating-linear-gradient(0deg,transparent 0px,transparent 49px,#dce5ef 50px);
+  border: 2px solid #9eb9d0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.map-layout {
+  position: absolute;
+  inset: 25px;
+  border: 12px solid #d8e4ec;
+  border-radius: 8px;
+  transform: scale(var(--zoom,1));
+  transition: transform .15s;
+  transform-origin: center;
+}
+
+.map-route {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  width: 55%;
+  height: 28%;
+  border-top: 5px dashed var(--green);
+  border-right: 5px dashed var(--green);
+  pointer-events: none;
+}
+
+.map-route.blocked {
+  border-top-color: #b32c30;
+}
+
+.map-marker {
+  position: absolute;
+  z-index: 3;
+  border-radius: 24px;
+  border: 2px solid white;
+  padding: 5px 9px;
+  color: white;
+  font-size: .78rem;
+  font-weight: 750;
+  box-shadow: 0 2px 8px #14263844;
+}
+
+.map-marker.zone {
+  background: var(--green);
+  left: 17%;
+  top: 23%;
+}
+
+.map-marker.exit {
+  background: var(--blue);
+  right: 8%;
+  bottom: 14%;
+}
+
+.map-marker.risk {
+  background: var(--danger);
+  right: 26%;
+  top: 27%;
+}
+
+.map-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.map-legend {
+  font-size: .78rem;
+  color: var(--muted);
+}
+
+/* Alternativa ficticia a ruta marcada como obstruida. */
+.map-route.alternative {left:14%;top:48%;width:65%;height:38%;border-top:0;border-left:5px dashed var(--green);border-bottom:5px dashed var(--green);border-right:5px dashed var(--green);}
+
+.map-marker.risk.caution {background:var(--warning);color:var(--text);}
+.map-marker.risk.critical {background:var(--danger);}
+.map-marker.risk.resolved {background:var(--green);}
