@@ -1,0 +1,29 @@
+/* SismoListo • capítulo IV (TB1, pp. 89–92 y 100): identidad web y semántica. */
+:root {
+  color-scheme: light;
+  --blue: #1976d2;       /* 4.3.2: azul del mockup web */
+  --blue-dark: #135ba2;
+  --blue-pale: #e9f3fe;
+  --green: #28a745;      /* 4.3.2: verde web */
+  --green-dark: #176c37; /* 4.3.2: CTA principal */
+  --green-pale: #e8f5e9;
+  --safe: #2e7d32;       /* 4.1.1: estado de seguridad */
+  --warning: #f57c00;    /* 4.1.1: precaución */
+  --danger: #d32f2f;     /* 4.1.1: emergencia/error */
+  --text: #212121;       /* 4.1.1: texto principal */
+  --muted: #516174;
+  --border: #d9e3ee;
+  --soft: #f5f7fa;
+  --white: #fff;
+  --shadow: 0 7px 22px rgba(28, 72, 107, .07);
+  --radius-card: 12px;
+  --radius-button: 10px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --font-body: 'Inter', 'Segoe UI', Arial, sans-serif;
+  --font-title: 'Poppins', 'Inter', 'Segoe UI', Arial, sans-serif;
+}

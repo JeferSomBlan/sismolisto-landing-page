@@ -1,0 +1,93 @@
+/* features/risks.css — SismoListo, estilos por responsabilidad. */
+
+.list-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.list-row:last-child {
+  border: 0;
+}
+
+.list-row .row-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.list-row small {
+  display: block;
+  color: var(--muted);
+}
+
+.row-actions {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.risk-badge {
+  border-radius: 20px;
+  padding: 3px 9px;
+  font-size: .71rem;
+  font-weight: 800;
+}
+
+.risk-badge.critical {
+  background: #ffebec;
+  color: #a61b30;
+}
+
+.risk-badge.caution {
+  background: #fff0db;
+  color: #966000;
+}
+
+.risk-badge.resolved {
+  background: #e9f5e9;
+  color: #256d32;
+}
+
+.radio-card {
+  display: flex;
+  gap: 11px;
+  align-items: flex-start;
+  padding: 11px;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  margin-bottom: 9px;
+  cursor: pointer;
+}
+
+.radio-card:hover {
+  background: #f6faff;
+}
+
+.radio-card input {
+  margin-top: 5px;
+}
+
+.choice-button {
+  text-align: left;
+  border: 1px solid #c9d6e2;
+  border-radius: 9px;
+  padding: 13px 15px;
+  width: 100%;
+  background: white;
+  margin-bottom: 8px;
+}
+
+.choice-button:hover {
+  border-color: var(--blue);
+  background: #edf6ff;
+}
+
+.clock {
+  font-weight: 850;
+  color: var(--blue);
+  font-size: 1.5rem;
+}

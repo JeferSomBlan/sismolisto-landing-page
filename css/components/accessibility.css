@@ -1,0 +1,24 @@
+/* components/accessibility.css — SismoListo, estilos por responsabilidad. */
+
+.demo-notice {
+  background: #edf4ff;
+  color: #244467;
+  text-align: center;
+  padding: 7px 14px;
+  font-size: .79rem;
+  border-bottom: 1px solid #d8e6f7;
+}
+
+.skip-link {
+  position: absolute;
+  left: 8px;
+  top: -60px;
+  background: var(--blue);
+  color: white;
+  padding: 10px;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 8px;
+}

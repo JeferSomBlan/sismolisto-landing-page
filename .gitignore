@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+node_modules/
+
+# Generated checks and local tooling
+__pycache__/
+*.pyc
+.playwright/
+.DS_Store

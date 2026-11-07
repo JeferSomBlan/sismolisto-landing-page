@@ -1,0 +1,12 @@
+Responsive 1440x900: PASS
+Responsive 768x900: PASS
+Responsive 390x844: PASS
+Responsive 320x780: PASS
+HU-031 evaluación 3 pasos: PASS
+HU-032 riesgo sin fotografía: PASS
+HU-034 ruta bloqueada simulada: PASS
+HU-035–037 simulación/feedback: PASS
+HU-038 checklist: PASS
+HU-040 historial: PASS
+Persistencia local al recargar documento: PASS
+TOTAL: 11 PASS

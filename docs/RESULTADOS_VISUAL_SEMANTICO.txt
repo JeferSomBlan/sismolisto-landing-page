@@ -1,0 +1,15 @@
+320px: sin desbordamiento, logotipo local cargado, navegación y H1 OK
+390px: sin desbordamiento, logotipo local cargado, navegación y H1 OK
+Menú móvil: abre, se cierra con Escape y devuelve el foco
+767px: sin desbordamiento, logotipo local cargado, navegación y H1 OK
+768px: sin desbordamiento, logotipo local cargado, navegación y H1 OK
+1023px: sin desbordamiento, logotipo local cargado, navegación y H1 OK
+1024px: sin desbordamiento, logotipo local cargado, navegación y H1 OK
+1440px: sin desbordamiento, logotipo local cargado, navegación y H1 OK
+Estado activo de navegación: aria-current correcto
+Contraste calculado Azul web / blanco: 4.60:1 >= 4.5:1
+Contraste calculado CTA verde oscuro / blanco: 6.49:1 >= 4.5:1
+Contraste calculado Texto principal / blanco: 16.10:1 >= 4.5:1
+Contraste calculado Texto secundario / blanco: 6.34:1 >= 4.5:1
+RESULTADOS: 13 comprobaciones satisfactorias.
+LIMITACIÓN: navegador aislado con fuentes web externas omitidas; no es prueba de sitio desplegado ni auditoría WCAG completa.
