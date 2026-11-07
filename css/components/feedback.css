@@ -1,0 +1,98 @@
+/* components/feedback.css — SismoListo, estilos por responsabilidad. */
+
+.status-line {
+  border-radius: 8px;
+  background: #e9f5ee;
+  color: #236637;
+  padding: 10px 12px;
+  font-size: .88rem;
+}
+
+.alert-line {
+  border-radius: 8px;
+  background: #fff3ea;
+  color: #854606;
+  padding: 10px 12px;
+  font-size: .86rem;
+}
+
+.safety-note {
+  margin: 16px 0 0;
+  font-size: .82rem;
+  color: #51667b;
+}
+
+.empty-state {
+  padding: 22px;
+  border-radius: 10px;
+  background: #f7faff;
+  color: var(--muted);
+  text-align: center;
+  border: 1px dashed var(--border);
+}
+
+.privacy-dialog {
+  border: 1px solid var(--border);
+  border-radius: 13px;
+  max-width: 550px;
+  width: calc(100% - 32px);
+  padding: 28px;
+  box-shadow: var(--shadow);
+}
+
+.privacy-dialog::backdrop {
+  background: #0a1a2a9c;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  background: #163c66;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  max-width: 390px;
+}
+
+.toast button {
+  margin-left: 10px;
+  color: white;
+  border: 1px solid white;
+  background: transparent;
+  border-radius: 5px;
+  padding: 3px 8px;
+}
+
+.pill {
+  font-size: .77rem;
+  background: #eff4f9;
+  padding: 5px 9px;
+  border-radius: 20px;
+}
+
+.panel-callout {
+  background: #f1f7ff;
+  border: 1px solid #cfdfef;
+  border-radius: 10px;
+  padding: 14px;
+  margin: 12px 0;
+}
+
+.panel-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.demo-notice { font-size:.78rem; }
+
+/* Diálogos del mapa y confirmaciones — reutilizan tokens del capítulo IV. */
+.detail-sheet,.confirm-dialog {border:1px solid var(--border);border-radius:12px;padding:24px;width:min(94vw,520px);max-height:85vh;overflow:auto;background:#fff;color:var(--text);box-shadow:var(--shadow);}
+.detail-sheet::backdrop,.confirm-dialog::backdrop {background:#0a1a2a9c;}
+.detail-sheet h2,.confirm-dialog h2 {font-size:1.22rem;margin:0 0 12px;}
+.detail-sheet p,.confirm-dialog p {line-height:1.5;}
+.confirm-dialog ul {padding-left:24px;margin-bottom:16px;}
+
+/* Presentar el detalle de HU-045 como hoja inferior. */
+.detail-sheet {position:fixed;inset:auto 0 0;margin:0 auto;border-radius:16px 16px 0 0;width:min(100vw,540px);max-height:70vh;}

@@ -1,0 +1,202 @@
+/* sections/content.css — SismoListo, estilos por responsabilidad. */
+
+.steps-grid,.features-grid,.scenario-grid,.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 16px;
+}
+
+.steps-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.steps-grid li,.feature-card,.scenario-card,.resource-card,.benefit-box,.contact-form {
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 24px;
+}
+
+.steps-grid li {
+  min-height: 210px;
+}
+
+.steps-grid p,.feature-card p,.scenario-card p,.resource-card p {
+  font-size: .91rem;
+}
+
+.step-no {
+  display: inline-grid;
+  place-items: center;
+  width: 41px;
+  height: 41px;
+  background: var(--blue-pale);
+  color: var(--blue);
+  font-weight: 850;
+  border-radius: 12px;
+  margin-bottom: 22px;
+}
+
+.feature-icon {
+  width: 43px;
+  height: 43px;
+  border-radius: 11px;
+  background: #edf3ff;
+  color: var(--blue);
+  display: grid;
+  place-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+}
+
+.features-grid {
+  grid-template-columns: repeat(4,1fr);
+}
+
+.feature-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-card .text-link {
+  margin-top: auto;
+  text-align: left;
+}
+
+.split-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.audience-cards {
+  display: grid;
+  gap: 12px;
+}
+
+.audience-card {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 5px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 18px 21px;
+}
+
+.audience-card:hover {
+  border-color: var(--blue);
+  box-shadow: 0 5px 18px #0000000a;
+}
+
+.audience-card strong {
+  font-size: 1.05rem;
+}
+
+.audience-card span {
+  color: var(--muted);
+  font-size: .87rem;
+}
+
+.audience-card .text-link {
+  color: var(--blue);
+}
+
+.benefit-box {
+  box-shadow: 0 8px 24px #12345608;
+}
+
+.benefit-controls {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 14px;
+}
+
+.small-button.is-selected {
+  background: var(--blue);
+  color: white;
+  border-color: var(--blue);
+}
+
+.scenario-grid,.resource-grid {
+  grid-template-columns: repeat(3,1fr);
+}
+
+.scenario-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.scenario-card p {
+  flex: 1;
+  margin-top: 15px;
+}
+
+.scenario-play {
+  color: #d57b16;
+  background: #fff4e5;
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.tag {
+  font-size: .73rem;
+  color: #1267bb;
+  background: #e6f1ff;
+  border-radius: 6px;
+  padding: 3px 7px;
+  margin-right: 6px;
+  font-weight: 750;
+}
+
+.tag.warm {
+  color: #ac5d10;
+  background: #fff1df;
+}
+
+.resource-grid {
+  margin-top: 23px;
+}
+
+.filter-label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.short-field {
+  max-width: 270px;
+}
+
+.faq-list details {
+  border: 1px solid var(--border);
+  background: white;
+  border-radius: 10px;
+  padding: 17px 20px;
+  margin: 12px 0;
+}
+
+.faq-list summary {
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.faq-list p {
+  margin: 12px 0 0;
+}
+
+/* Beneficios: agrupación de tarjetas conforme a 4.3.2, sin inventar contenidos. */
+.benefits-layout { display:grid; gap:24px; }
+.benefit-box { box-shadow:none; border:0; padding:0; }
+.benefit-box .check-list { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+.benefit-box .check-list li { display:block; padding:20px 20px 20px 40px; position:relative; min-height:112px; border:1px solid var(--border); border-radius:var(--radius-card); background:#fff; font-weight:600; }
+.benefit-box .check-list li::before { position:absolute; left:16px; top:20px; padding:0; }
+@media (max-width: 767px) { .benefit-box .check-list { grid-template-columns:1fr; } }

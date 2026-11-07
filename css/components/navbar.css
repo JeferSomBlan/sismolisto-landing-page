@@ -1,0 +1,31 @@
+/* components/navbar.css — SismoListo, estilos por responsabilidad. */
+
+.site-nav {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.site-nav a {
+  font-size: .79rem;
+  font-weight: 650;
+  white-space: nowrap;
+  text-decoration: none;
+  color: #35485d;
+}
+
+.site-nav a:hover,.site-nav a:focus-visible,.text-link:hover {
+  text-decoration: underline;
+  color: var(--blue);
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.site-nav a:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; border-radius: 3px; }
+
+/* 4.2.4: la navegación muestra la sección seleccionada. */
+.site-nav a[aria-current="location"] { color:var(--blue-dark); text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:8px; }

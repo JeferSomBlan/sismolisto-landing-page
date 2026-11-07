@@ -1,0 +1,171 @@
+/* sections/hero.css — SismoListo, estilos por responsabilidad. */
+
+.hero {
+  background: #fff;
+  padding: 80px 0 72px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.03fr .97fr;
+  gap: 48px;
+  align-items: center;
+}
+
+.hero h1 span {
+  color: var(--blue);
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.hero-subnote {
+  font-size: .85rem;
+  margin: 19px 0 0;
+}
+
+.hero-preview {
+  background: #fff;
+  border: 1px solid #d8e4ee;
+  border-radius: var(--radius-card);
+  box-shadow: 0 3px 14px rgba(28,72,107,.06);
+  padding: 20px;
+  max-width: 490px;
+  width: 100%;
+  justify-self: end;
+}
+
+.preview-top,.preview-bottom {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  justify-content: space-between;
+}
+
+.preview-top {
+  padding: 4px 0 15px;
+  border-bottom: 1px solid var(--border);
+}
+
+.preview-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--blue);
+}
+
+.preview-top strong {
+  margin-right: auto;
+}
+
+.mini-label {
+  font-size: .75rem;
+  padding: 3px 9px;
+  background: var(--soft);
+  border-radius: 16px;
+  color: var(--muted);
+}
+
+.preview-space {
+  padding: 16px 8px 5px;
+}
+
+.floor-label {
+  color: var(--muted);
+  font-size: .7rem;
+  letter-spacing: .09em;
+  font-weight: 750;
+}
+
+.floor-grid {
+  position: relative;
+  height: 220px;
+  max-width: 380px;
+  margin: 10px auto 18px;
+  background: repeating-linear-gradient(0deg,transparent,transparent 44px,#e4ebf2 45px),repeating-linear-gradient(90deg,#fafcfe,#fafcfe 58px,#e4ebf2 59px);
+  border: 2px solid #d0dce9;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.floor-grid:before {
+  content: "";
+  position: absolute;
+  border: 9px solid #e9f0f7;
+  left: 26%;
+  top: 20%;
+  width: 44%;
+  height: 54%;
+  border-radius: 7px;
+}
+
+.floor-point {
+  position: absolute;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  font-weight: 850;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  color: white;
+  box-shadow: 0 2px 8px #0002;
+}
+
+.floor-point.good {
+  background: var(--green);
+  top: 28%;
+  left: 32%;
+}
+
+.floor-point.caution {
+  background: #d67b12;
+  top: 59%;
+  right: 22%;
+}
+
+.floor-exit {
+  position: absolute;
+  right: 0;
+  top: 7%;
+  padding: 3px 6px;
+  background: var(--green);
+  color: white;
+  font-size: .6rem;
+  font-weight: 800;
+}
+
+.floor-route {
+  position: absolute;
+  border-right: 3px dashed #51a1d9;
+  border-top: 3px dashed #51a1d9;
+  width: 55%;
+  height: 30%;
+  top: 25%;
+  left: 35%;
+}
+
+.preview-bottom {
+  padding: 9px 0 2px;
+}
+
+.preview-bottom small {
+  display: block;
+  font-size: .74rem;
+  color: var(--muted);
+}
+
+.preview-bottom strong {
+  display: block;
+  font-size: .93rem;
+}
+
+.preview-pill {
+  font-size: .7rem;
+  background: var(--blue-pale);
+  color: var(--blue);
+  padding: 9px;
+  border-radius: 8px;
+  font-weight: 750;
+}

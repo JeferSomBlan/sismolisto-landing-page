@@ -1,0 +1,62 @@
+"""Alternative-route checks using in-memory DOM (not a deployed-site test)."""
+from test_ui import sync_playwright,mount,browser_args
+
+def run():
+ results=[]
+ with sync_playwright() as p:
+  b=p.chromium.launch(**browser_args())
+  page=b.new_page(viewport={'width':390,'height':844})
+  errors=[]
+  page.on('pageerror',lambda e:errors.append(str(e)))
+  page.on('dialog',lambda d:d.accept())
+  mount(page)
+  menu=page.locator('#menu-toggle')
+  menu.click(); assert menu.get_attribute('aria-expanded')=='true';assert page.locator('#site-nav').is_visible()
+  menu.click();assert menu.get_attribute('aria-expanded')=='false'
+  results.append('Alternativa menú móvil: PASS')
+  page.locator('[data-tab="evaluar"]').click()
+  page.get_by_role('button',name='Agregar espacio').click()
+  page.locator('#new-name').fill('Laboratorio de pruebas')
+  page.locator('#new-sede').fill('Campus simulado')
+  page.locator('#new-building').fill('Pabellón C')
+  page.locator('#new-floor').fill('2')
+  page.locator('#add-space-form').get_by_role('button',name='Guardar espacio').click()
+  assert 'Paso 1 de 3' in page.locator('#app-content').inner_text()
+  results.append('HU-031 alta de espacio alternativo: PASS')
+  page.get_by_role('button',name='Guardar y salir').click()
+  assert 'Continúa donde te quedaste' in page.locator('#app-content').inner_text()
+  page.get_by_role('button',name='Continuar',exact=True).click()
+  assert 'Evaluación guiada' in page.locator('#app-content').inner_text()
+  results.append('HU-042/HU-048 guardar y continuar evaluación: PASS')
+  page.locator('[data-tab="riesgos"]').click()
+  page.locator('#risk-desc').fill('Riesgo de prueba')
+  page.locator('#risk-form').get_by_role('button',name='Guardar riesgo').click()
+  page.get_by_role('button',name='Editar').click()
+  page.locator('#risk-desc').fill('Riesgo corregido')
+  page.locator('#risk-form').get_by_role('button',name='Guardar cambios').click()
+  assert 'Riesgo corregido' in page.locator('#app-content').inner_text()
+  page.get_by_role('button',name='Resolver').click()
+  assert 'Resuelto' in page.locator('#app-content').inner_text()
+  results.append('HU-046 editar/resolver riesgo: PASS')
+  page.get_by_role('button',name='Eliminar').click()
+  assert page.locator('#confirm-dialog').is_visible()
+  page.locator('#confirm-execute').click()
+  assert 'Todavía no hay riesgos registrados' in page.locator('#app-content').inner_text()
+  page.get_by_role('button',name='Deshacer').click()
+  assert 'Riesgo corregido' in page.locator('#app-content').inner_text()
+  results.append('HU-047 eliminación/Deshacer: PASS')
+  page.locator('[data-tab="practica"]').click()
+  page.locator('[data-scenario="lights"]').last.click()
+  page.get_by_role('button',name='Guardar y salir').click()
+  assert 'Micro-simulacro pendiente' in page.locator('#app-content').inner_text()
+  page.get_by_role('button',name='Continuar',exact=True).last.click()
+  assert 'Corte de luz durante la clase' in page.locator('#app-content').inner_text()
+  results.append('HU-035/HU-048 pausa y reanudación: PASS')
+  # Exercise one resource filter through the static page
+  page.locator('#resource-filter').select_option('mochila')
+  assert len(page.locator('.resource-card:visible').all())==1
+  results.append('HU-011 filtro de recursos: PASS')
+  assert not errors,errors
+  b.close()
+ print('\n'.join(results));print('TOTAL:',len(results),'PASS')
+if __name__=='__main__':run()

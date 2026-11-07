@@ -1,0 +1,15 @@
+PASS HU-050 S2 — estado inicial 0% y CTA
+PASS HU-050 S2 — CTA abre evaluación
+PASS HU-050 S1 — resumen por categorías
+PASS HU-039 S1 — porcentaje recalculado al evaluar
+PASS HU-034 S2 — marcador y alternativa de demostración
+PASS HU-045 S1 — detalle en diálogo accesible
+PASS HU-045 S1 — cerrar detalle retorna al mapa
+PASS HU-043 S2 — recomendación Hecho aumenta avance
+PASS HU-047 S1 — confirmación Cancelar/Eliminar
+PASS HU-047 S1 — cancelar conserva registro
+PASS HU-047 S2 — se permite Deshacer
+PASS HU-049 S2 — diálogo de pasos pendientes
+PASS HU-049 S1/S2 — resumen persistente en pantalla
+PASS JS runtime — sin errores en pruebas dirigidas
+TOTAL 14 pruebas AV2 dirigidas satisfactorias
