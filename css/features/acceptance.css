@@ -1,0 +1,51 @@
+/* Academic acceptance flows, justified by HU-003,005,006,009,010,014,016,018,029.
+   Shared tokens and native components are preserved from Cap. IV. */
+.step-detail-action { display:flex; flex-wrap:wrap; align-items:center; gap:16px; margin:24px 0 0; }
+.step-detail { display:grid; grid-template-columns:minmax(0,1fr) auto; align-items:center; gap:24px; margin-top:16px; border:1px solid var(--border); border-radius:var(--radius-card); background:var(--white); padding:24px; }
+.step-detail[hidden]{display:none}
+.step-detail img {max-width:150px; height:auto; border:1px solid var(--border); border-radius:10px; }
+.comparison-table-wrap { overflow-x:auto; border:1px solid var(--border); border-radius:var(--radius-card); background:var(--white); }
+.comparison-table { width:100%; border-collapse:collapse; min-width:560px; }
+.comparison-table caption { text-align:left; padding:16px 20px; font-weight:700; }
+.comparison-table th,.comparison-table td { padding:16px 20px; text-align:left; border-top:1px solid var(--border); }
+.comparison-table thead { background:var(--blue-pale); }
+.comparison-cards { display:none; gap:16px; }
+.comparison-cards article { padding:20px; background:var(--white); border:1px solid var(--border); border-radius:var(--radius-card); }
+.testimonial-card { padding:clamp(20px,3vw,32px); border:1px solid var(--border); border-radius:var(--radius-card); background:var(--white); }
+.testimonial-quote { font-size:1.2rem; line-height:1.6; color:var(--text); }
+.contact-channels { display:grid; justify-items:start; gap:8px; margin:20px 0; }
+.contact-channels a { overflow-wrap:anywhere; }
+.account-dialog { width:min(660px,calc(100% - 24px)); max-height:90vh; overflow:auto; }
+.account-tab-list { display:flex; gap:12px; margin:18px 0; flex-wrap:wrap; }
+.account-tab-list [aria-pressed="true"]{ background:var(--blue-pale); border:2px solid var(--blue); }
+.account-dialog .field-group { min-width:0; }
+.account-dialog .field-group input:not([type=checkbox]), .account-dialog select { width:100%; }
+.account-dialog form[hidden]{display:none !important}
+.account-dialog input.is-invalid, .account-dialog select.is-invalid { outline:2px solid var(--danger); border-color:var(--danger); }
+#register-feedback,#login-feedback { color:var(--danger); }
+@media (max-width:767px) {
+  .comparison-table-wrap{display:none}
+  .comparison-cards{display:grid}
+  .step-detail {grid-template-columns:1fr}
+  .step-detail img {max-width:145px}
+}
+/* HU-029 states an explicit 16px minimum in TB1. This is a project-specific
+   acceptance rule, not a blanket claim that WCAG 2.2 mandates 16px. */
+body :is(p, span, small, label, a, button, input, textarea, select, li, td, th, summary, output, figcaption, caption) {
+  font-size:16px !important;
+}
+
+h1 span, h2 span, h3 span {font-size:inherit !important;}
+.testimonial-quote {font-size:1.2rem !important;}
+/* Existing .small carried !important at 12.8px; TB1 HU-029 explicitly requires 16px. */
+.small {font-size:16px !important;}
+
+.brand-name {font-size:clamp(1.22rem,1.6vw,1.42rem) !important;}
+
+/* Preserve usable checkbox geometry inside the two-column account form. */
+.account-dialog .field-group input[type="checkbox"] {width:20px;min-width:20px;min-height:20px;height:20px;padding:0;flex:0 0 20px;accent-color:var(--green-dark);}
+.account-dialog .field-group label.checkbox-row {display:flex;align-items:center;gap:12px;justify-content:flex-start;min-height:44px;padding:8px 0;}
+@media (max-width:590px) {
+  #back-to-top {width:48px;height:48px;padding:0;display:grid;place-items:center;border-radius:50%;}
+  #back-to-top span {display:none;}
+}

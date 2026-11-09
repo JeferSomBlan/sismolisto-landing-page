@@ -84,3 +84,9 @@
 .map-marker.risk.caution {background:var(--warning);color:var(--text);}
 .map-marker.risk.critical {background:var(--danger);}
 .map-marker.risk.resolved {background:var(--green);}
+
+/* HU-045: desplazamiento accesible mediante botones; el plano continúa siendo ficticio. */
+.map-layout { transform: translate(var(--pan-x, 0px),var(--pan-y, 0px)) scale(var(--zoom,1)); }
+.map-pan-controls { display:flex; align-items:center; flex-wrap:wrap; gap:4px; }
+.map-pan-controls .btn { min-width:40px; min-height:40px; }
+.map-marker.risk { max-width:84px; overflow-wrap:anywhere; }

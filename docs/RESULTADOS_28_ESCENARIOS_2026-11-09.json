@@ -1,0 +1,261 @@
+{
+  "timestamp_utc": "2026-11-09T06:27:03.607010+00:00",
+  "base": "SismoListo_AV2_Codigo_Simulaciones_Pendientes.zip",
+  "executed": 28,
+  "passed": 28,
+  "failed": 0,
+  "results": [
+    {
+      "HU": "HU-003",
+      "Escenario": 2,
+      "Descripcion": "Detalle de un paso",
+      "Estado": "CUMPLE",
+      "Resultado": "Descripción de paso e imagen de mockup TB1 p. 106 visibles",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-003-E2.png"
+    },
+    {
+      "HU": "HU-005",
+      "Escenario": 1,
+      "Descripcion": "Registro exitoso",
+      "Estado": "CUMPLE",
+      "Resultado": "Registro simulado → perfil/espacio habitual",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-005-E1.png"
+    },
+    {
+      "HU": "HU-005",
+      "Escenario": 2,
+      "Descripcion": "Datos inválidos",
+      "Estado": "CUMPLE",
+      "Resultado": "Contraseña corta y correo duplicado resaltados; resto del formulario conservado",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-005-E2.png"
+    },
+    {
+      "HU": "HU-006",
+      "Escenario": 1,
+      "Descripcion": "Inicio de sesión",
+      "Estado": "CUMPLE",
+      "Resultado": "Inicio de sesión simulado abre inicio y conserva checklist en almacenamiento",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-006-E1.png"
+    },
+    {
+      "HU": "HU-006",
+      "Escenario": 2,
+      "Descripcion": "Credenciales incorrectas",
+      "Estado": "CUMPLE",
+      "Resultado": "Credenciales de prueba incorrectas y recuperación simulada visible",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-008",
+      "Escenario": 1,
+      "Descripcion": "Consulta de beneficios",
+      "Estado": "CUMPLE",
+      "Resultado": "Beneficios de rapidez y práctica rotulados como objetivos, no datos medidos",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-009",
+      "Escenario": 1,
+      "Descripcion": "Visualización de testimonios",
+      "Estado": "CUMPLE",
+      "Resultado": "Nombre, perfil, comentario y descargo ficticio visibles",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-009",
+      "Escenario": 2,
+      "Descripcion": "Carrusel de testimonios",
+      "Estado": "CUMPLE",
+      "Resultado": "Carrusel avanza y retrocede sin recarga",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-009-E2.png"
+    },
+    {
+      "HU": "HU-010",
+      "Escenario": 1,
+      "Descripcion": "Contacto con otros canales",
+      "Estado": "CUMPLE",
+      "Resultado": "Navegación a formulario y canales simulados claramente identificados",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-010",
+      "Escenario": 2,
+      "Descripcion": "Otro canal",
+      "Estado": "CUMPLE",
+      "Resultado": "Correo de ejemplo y redes llevan a la app/plataforma sin fingir identidad real del equipo",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-014",
+      "Escenario": 1,
+      "Descripcion": "Tabla comparativa",
+      "Estado": "CUMPLE",
+      "Resultado": "Tabla compara práctica, simulacros y evaluación de espacios",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-014-E1.png"
+    },
+    {
+      "HU": "HU-014",
+      "Escenario": 2,
+      "Descripcion": "Comparación móvil",
+      "Estado": "CUMPLE",
+      "Resultado": "Tres tarjetas comparativas apiladas sin scroll horizontal",
+      "Entorno": "Chromium en memoria 390x880",
+      "Captura": "docs/evidence/28_scenarios/HU-014-E2.png"
+    },
+    {
+      "HU": "HU-016",
+      "Escenario": 2,
+      "Descripcion": "Regreso al registro",
+      "Estado": "CUMPLE",
+      "Resultado": "Política modal retorna al formulario sin pérdida de datos",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-018",
+      "Escenario": 1,
+      "Descripcion": "Inicio de experiencia",
+      "Estado": "CUMPLE",
+      "Resultado": "CTA Comenzar ofrece registro simulado sin cambiar sección de la página",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-018",
+      "Escenario": 2,
+      "Descripcion": "Usuario con cuenta",
+      "Estado": "CUMPLE",
+      "Resultado": "CTA ofrece inicio de sesión a cuenta demo existente",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-019",
+      "Escenario": 2,
+      "Descripcion": "Identidad navegador",
+      "Estado": "CUMPLE",
+      "Resultado": "Título y archivo favicon.svg presentes (despliegue público no comprobado)",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-020",
+      "Escenario": 1,
+      "Descripcion": "Footer completo",
+      "Estado": "CUMPLE",
+      "Resultado": "Enlaces, contacto, privacidad, red de ejemplo y derechos reservados visibles",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-020-E1.png"
+    },
+    {
+      "HU": "HU-023",
+      "Escenario": 1,
+      "Descripcion": "Probar demo",
+      "Estado": "CUMPLE",
+      "Resultado": "Demo de salida bloqueada con tres decisiones y temporizador",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-023",
+      "Escenario": 2,
+      "Descripcion": "Resultado de demo",
+      "Estado": "CUMPLE",
+      "Resultado": "Feedback inmediato e invitación a cuenta demostrativa",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-023-E2.png"
+    },
+    {
+      "HU": "HU-027",
+      "Escenario": 1,
+      "Descripcion": "Multidispositivo",
+      "Estado": "CUMPLE",
+      "Resultado": "Viewport sin cortes: 320,375,390,400,768,1024,1280,1440,1920",
+      "Entorno": "Chromium en memoria 320x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-027",
+      "Escenario": 2,
+      "Descripcion": "Cambio orientación",
+      "Estado": "CUMPLE",
+      "Resultado": "Pantalla vertical/horizontal reorganizada sin desbordamiento",
+      "Entorno": "Chromium en memoria 390x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-028",
+      "Escenario": 1,
+      "Descripcion": "Selección de sección",
+      "Estado": "CUMPLE",
+      "Resultado": "Navega a sección y marca estado activo",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-029",
+      "Escenario": 1,
+      "Descripcion": "Lectura accesible",
+      "Estado": "CUMPLE",
+      "Resultado": "Textos inspeccionados >=16px; alt en imágenes; pares de contraste básicos medidos (no auditoría WCAG completa)",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-032",
+      "Escenario": 1,
+      "Descripcion": "Registrar riesgo con foto",
+      "Estado": "CUMPLE",
+      "Resultado": "Riesgo con fotografía ficticia y gravedad crítica visible en mapa de ejemplo",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-032-E1.png"
+    },
+    {
+      "HU": "HU-033",
+      "Escenario": 1,
+      "Descripcion": "Consulta zonas registradas",
+      "Estado": "CUMPLE",
+      "Resultado": "Zona interna y punto de reunión ficticios tras evaluar espacio",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-033",
+      "Escenario": 2,
+      "Descripcion": "Zonas vacías",
+      "Estado": "CUMPLE",
+      "Resultado": "Estado vacío y CTA Evaluar este espacio antes de completar evaluación",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-033-E2.png"
+    },
+    {
+      "HU": "HU-036",
+      "Escenario": 1,
+      "Descripcion": "Responder imprevisto",
+      "Estado": "CUMPLE",
+      "Resultado": "Tres decisiones disponibles durante cuenta regresiva de simulacro",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": ""
+    },
+    {
+      "HU": "HU-036",
+      "Escenario": 2,
+      "Descripcion": "Tiempo agotado",
+      "Estado": "CUMPLE",
+      "Resultado": "Temporizador finaliza tras avance ficticio de 62s; Sin respuesta + opción esperada",
+      "Entorno": "Chromium en memoria 1440x880",
+      "Captura": "docs/evidence/28_scenarios/HU-036-E2.png"
+    }
+  ]
+}

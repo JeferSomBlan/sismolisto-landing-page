@@ -1,0 +1,65 @@
+[
+  {
+    "width": 320,
+    "header_px": 73,
+    "brand_px": 140.6,
+    "navfont_px": 16,
+    "nav_visible": false,
+    "footer_present": true,
+    "overflow": false
+  },
+  {
+    "width": 390,
+    "header_px": 73,
+    "brand_px": 140.6,
+    "navfont_px": 16,
+    "nav_visible": false,
+    "footer_present": true,
+    "overflow": false
+  },
+  {
+    "width": 768,
+    "header_px": 73,
+    "brand_px": 140.1,
+    "navfont_px": 16,
+    "nav_visible": false,
+    "footer_present": true,
+    "overflow": false
+  },
+  {
+    "width": 1024,
+    "header_px": 73,
+    "brand_px": 140.1,
+    "navfont_px": 16,
+    "nav_visible": false,
+    "footer_present": true,
+    "overflow": false
+  },
+  {
+    "width": 1280,
+    "header_px": 85,
+    "brand_px": 144.9,
+    "navfont_px": 16,
+    "nav_visible": true,
+    "footer_present": true,
+    "overflow": false
+  },
+  {
+    "width": 1440,
+    "header_px": 85,
+    "brand_px": 156.2,
+    "navfont_px": 16,
+    "nav_visible": true,
+    "footer_present": true,
+    "overflow": false
+  },
+  {
+    "width": 1920,
+    "header_px": 85,
+    "brand_px": 156.2,
+    "navfont_px": 16,
+    "nav_visible": true,
+    "footer_present": true,
+    "overflow": false
+  }
+]

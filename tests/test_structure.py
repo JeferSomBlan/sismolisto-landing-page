@@ -12,11 +12,11 @@ class Links(HTMLParser):
         if tag=='script' and attrs.get('src'):self.links.append(attrs['src'])
 
 s=Links();s.feed((ROOT/'index.html').read_text(encoding='utf-8'))
-assert len(s.links)==20,f'Esperado: 19 CSS + 1 JS; hay {len(s.links)}'
+assert len(s.links)==22,f'Esperado: 20 CSS + 2 JS; hay {len(s.links)}'
 assert len(s.links)==len(set(s.links)),'Rutas de archivos duplicadas'
-assert s.links[-2]=='css/base/responsive.css','Responsive CSS debe cargarse al final'
+assert s.links[-4]=='css/base/responsive.css' and s.links[-3]=='css/features/acceptance.css','CSS responsive y de aceptación deben cargarse antes de JS'
 for ref in s.links:
     file=(ROOT/ref).resolve()
     assert file.is_relative_to(ROOT) and file.is_file(),f'Archivo no encontrado: {ref}'
 assert (ROOT/'assets/images/brand/README.md').is_file()
-print(f'Rutas OK: {len(s.links)-1} CSS y 1 JS; recursos y orden comprobados.')
+print(f'Rutas OK: {len(s.links)-2} CSS y 2 JS; recursos y orden comprobados.')

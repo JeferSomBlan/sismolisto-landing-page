@@ -1,0 +1,66 @@
+[
+  {
+    "HU": "HU-021",
+    "Escenario": 1,
+    "Titulo": "Envío ficticio con mensaje y limpieza",
+    "Resultado": "PASS",
+    "Observacion": "Interacción simulada observada y coherente con el resultado esperado; sin servicios reales.",
+    "Plataforma": "HTML/CSS/JS Chromium aislado"
+  },
+  {
+    "HU": "HU-021",
+    "Escenario": 2,
+    "Titulo": "Entrada inválida bloqueada",
+    "Resultado": "PASS",
+    "Observacion": "Interacción simulada observada y coherente con el resultado esperado; sin servicios reales.",
+    "Plataforma": "HTML/CSS/JS Chromium aislado"
+  },
+  {
+    "HU": "HU-030",
+    "Escenario": 1,
+    "Titulo": "Tiendas de aplicaciones simuladas en móvil",
+    "Resultado": "PASS",
+    "Observacion": "Interacción simulada observada y coherente con el resultado esperado; sin servicios reales.",
+    "Plataforma": "HTML/CSS/JS Chromium aislado"
+  },
+  {
+    "HU": "HU-030",
+    "Escenario": 2,
+    "Titulo": "QR demostrativo en escritorio",
+    "Resultado": "PASS",
+    "Observacion": "Interacción simulada observada y coherente con el resultado esperado; sin servicios reales.",
+    "Plataforma": "HTML/CSS/JS Chromium aislado"
+  },
+  {
+    "HU": "HU-034",
+    "Escenario": 1,
+    "Titulo": "Ruta más corta en grafo ficticio",
+    "Resultado": "PASS",
+    "Observacion": "Interacción simulada observada y coherente con el resultado esperado; sin servicios reales.",
+    "Plataforma": "HTML/CSS/JS Chromium aislado"
+  },
+  {
+    "HU": "HU-034",
+    "Escenario": 2,
+    "Titulo": "Ruta alterna ficticia ante bloqueo",
+    "Resultado": "PASS",
+    "Observacion": "Interacción simulada observada y coherente con el resultado esperado; sin servicios reales.",
+    "Plataforma": "HTML/CSS/JS Chromium aislado"
+  },
+  {
+    "HU": "HU-039",
+    "Escenario": 2,
+    "Titulo": "Sincronización local simulada tras reconexión",
+    "Resultado": "PASS",
+    "Observacion": "Interacción simulada observada y coherente con el resultado esperado; sin servicios reales.",
+    "Plataforma": "HTML/CSS/JS Chromium aislado"
+  },
+  {
+    "HU": "HU-041",
+    "Escenario": 1,
+    "Titulo": "Configuración inicial de perfil simulado",
+    "Resultado": "PASS",
+    "Observacion": "Interacción simulada observada y coherente con el resultado esperado; sin servicios reales.",
+    "Plataforma": "HTML/CSS/JS Chromium aislado"
+  }
+]

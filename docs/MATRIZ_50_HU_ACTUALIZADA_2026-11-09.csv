@@ -1,0 +1,51 @@
+﻿HU,Épica,Título original,Backlog rank,Story Points,Grupo web propuesto,Escenarios locales,Pruebas nuevas,Estado local,Core aprobado,Figma
+HU-001,EP-01,Explorar propuesta de valor,21,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-002,EP-01,Conocer problemática,22,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-003,EP-01,Conocer cómo funciona SismoListo,23,2,B — complemento web justificable; no computable automáticamente como core,2/2 en consolidado local,1,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-004,EP-01,Visualizar funcionalidades principales,24,2,B — complemento web justificable; no computable automáticamente como core,2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-005,EP-02,Visualizar funcionalidades,42,5,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-006,EP-02,Iniciar sesión,43,5,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-007,EP-06,Consultar simuladores,25,2,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-008,EP-01,Consultar beneficios,27,1,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,1,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-009,EP-01,Revisar testimonios,41,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-010,EP-03,Contactar al equipo,44,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-011,EP-03,Consultar recursos preventivos,37,2,B — complemento web justificable; no computable automáticamente como core,2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-012,EP-03,Visualizar segmentos objetivo,38,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-013,EP-01,Visualizar segmentos objetivo,29,1,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-014,EP-01,Comparar la propuesta con otras soluciones,28,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-015,EP-03,Compartir información,39,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-016,EP-03,Consultar política de privacidad,46,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,1,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-017,EP-02,Navegación responsive,35,3,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-018,EP-02,Usar llamada principal a la acción,30,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-019,EP-01,Reconocer la identidad de SismoListo,48,1,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,1,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-020,EP-01,Consultar pie de página,49,1,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,1,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-021,EP-01,Enviar formulario de contacto,45,3,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-022,EP-02,Volver al inicio,50,1,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-023,EP-06,Acceder a demostración de simuladores,26,5,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-024,EP-01,Consultar preguntas frecuentes,36,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-025,EP-02,Seleccionar llamado secundario,47,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-026,EP-03,Compartir un recurso preventivo,40,2,B — complemento web justificable; no computable automáticamente como core,2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-027,EP-02,Consultar compatibilidad de dispositivos,33,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-028,EP-02,Usar navegación del menú,32,2,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,1,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-029,EP-02,Consultar contenido accesible,34,3,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,1,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-030,EP-02,Continuar hacia experiencia móvil,31,3,"C — informativa, de navegación, de soporte o principalmente móvil según contexto",2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-031,Mobile,Evaluar entorno,1,5,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-032,EP-04,Registrar riesgos,2,5,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,1,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-033,EP-05,Identificar zonas seguras,3,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-034,EP-05,Consultar rutas de evacuación,4,5,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-035,EP-06,Realizar micro-simulacro,6,8,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-036,EP-06,Responder escenarios con imprevistos,7,5,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,2,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-037,EP-06,Recibir retroalimentación,8,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-038,EP-07,Gestionar checklist de preparación,9,5,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-039,EP-08,Actualizar progreso,11,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-040,EP-08,Consultar historial,12,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-041,EP-07,Personalizar experiencia,18,5,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-042,EP-07,Guardar avance,17,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-043,EP-03,Revisar recomendaciones,10,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-044,EP-02,Acceder rápidamente a funciones,19,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-045,EP-05,Interactuar con mapa,5,8,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-046,EP-04,Modificar registros,15,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-047,EP-04,Confirmar acciones sensibles,16,2,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-048,EP-07,Continuar actividades pendientes,13,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-049,EP-07,Finalizar sesión de preparación,20,2,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO
+HU-050,EP-08,Consultar estado general,14,3,A — CORE CANDIDATA (sin priorización aprobada),2/2 en consolidado local,0,CUMPLE LOCAL (ver nivel evidencia),NO COMPROBADO,NO COMPROBADO

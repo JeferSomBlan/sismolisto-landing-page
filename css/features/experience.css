@@ -167,3 +167,12 @@
 .checkbox-row input {
   margin-top: 7px;
 }
+
+/* HU-044: barra inferior solamente en la experiencia móvil de la demostración. */
+.mobile-app-nav { display:none; }
+@media (max-width:800px) {
+  .mobile-app-nav { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border-top:1px solid var(--border); background:#fff; }
+  .mobile-app-nav button { padding:13px 3px; border:0; background:transparent; font:inherit; font-size:.88rem; font-weight:650; color:var(--text); min-height:50px; }
+  .mobile-app-nav button[aria-current="page"] { color:var(--blue); background:var(--blue-pale); box-shadow:inset 0 -3px var(--blue); }
+  .mobile-app-nav button:focus-visible {outline:3px solid var(--blue);outline-offset:-3px;}
+}
