@@ -1,0 +1,46 @@
+{
+  "total_hu": 50,
+  "total_scenarios": 100,
+  "scenario_status": {
+    "CUMPLE": 32,
+    "NO COMPROBADO": 60,
+    "NO CUMPLE": 8
+  },
+  "hu_local_complete_both_scenarios": 13,
+  "hu_local_complete_ids": [
+    "HU-031",
+    "HU-035",
+    "HU-037",
+    "HU-038",
+    "HU-040",
+    "HU-042",
+    "HU-044",
+    "HU-045",
+    "HU-046",
+    "HU-047",
+    "HU-048",
+    "HU-049",
+    "HU-050"
+  ],
+  "hu_core_candidate": 22,
+  "hu_core_candidate_complete": 13,
+  "hu_core_candidate_complete_ids": [
+    "HU-031",
+    "HU-035",
+    "HU-037",
+    "HU-038",
+    "HU-040",
+    "HU-042",
+    "HU-044",
+    "HU-045",
+    "HU-046",
+    "HU-047",
+    "HU-048",
+    "HU-049",
+    "HU-050"
+  ],
+  "hu_core_minimum": 30,
+  "official_30_selection_approved": false,
+  "figma_coverage_verified": false,
+  "published_version_updated": false
+}

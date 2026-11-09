@@ -9,10 +9,12 @@ HTML=(ROOT/'index.html').read_text(encoding='utf-8')
 import re as _re
 HTML=_re.sub(r'<link href="https://fonts\.googleapis\.com/[^>]+>','',HTML)
 CSS='\n'.join((ROOT/rel).read_text(encoding='utf-8') for rel in __import__('re').findall(r'href=\"(css/[^\"]+\.css)\"', HTML))
-JS=(ROOT/'js/app.js').read_text(encoding='utf-8')
+JS=(ROOT/'js/app.js').read_text(encoding='utf-8')+'\n'+(ROOT/'js/acceptance.js').read_text(encoding='utf-8')
 import base64
 logo=ROOT/'assets/images/brand/logo-sismolisto-captura-tb1.png'
 HTML=HTML.replace('assets/images/brand/logo-sismolisto-captura-tb1.png', 'data:image/png;base64,'+base64.b64encode(logo.read_bytes()).decode())
+qr=ROOT/'assets/images/illustrations/qr-sismolisto-demo.png'
+HTML=HTML.replace('assets/images/illustrations/qr-sismolisto-demo.png','data:image/png;base64,'+base64.b64encode(qr.read_bytes()).decode())
 
 def mount(page):
     # The evaluation environment blocks all browser navigation (including localhost/file URLs).
@@ -58,27 +60,27 @@ def run():
             page.locator('#eval-form').get_by_role('button',name='Siguiente' if answer!='No estoy seguro' else 'Finalizar evaluación').click()
         assert 'Última evaluación guardada' in page.locator('#app-content').inner_text()
         results.append('HU-031 evaluación 3 pasos: PASS')
-        page.locator('[data-tab="riesgos"]').click()
+        page.locator('#app-tabs [data-tab="riesgos"]').click()
         page.locator('#risk-type').select_option('Ruta obstruida')
         page.locator('#risk-level').select_option('Crítico')
         page.locator('#risk-desc').fill('Obstáculo de demostración en pasillo')
         page.locator('#risk-form').get_by_role('button',name='Guardar riesgo').click()
         assert 'Obstáculo de demostración en pasillo' in page.locator('#app-content').inner_text()
         results.append('HU-032 riesgo sin fotografía: PASS')
-        page.locator('[data-tab="zonas"]').click()
+        page.locator('#app-tabs [data-tab="zonas"]').click()
         assert 'Ruta principal bloqueada (simulación)' in page.locator('#app-content').inner_text()
         results.append('HU-034 ruta bloqueada simulada: PASS')
-        page.locator('[data-tab="practica"]').click()
+        page.locator('#app-tabs [data-tab="practica"]').click()
         page.locator('[data-scenario="blocked"]').last.click()
         assert '60 s' in page.locator('#sim-clock').inner_text()
         page.locator('[data-action="answer-sim"][data-choice="1"]').click()
         assert 'Resultado del micro-simulacro' in page.locator('#app-content').inner_text()
         results.append('HU-035–037 simulación/feedback: PASS')
-        page.locator('[data-tab="checklist"]').click()
+        page.locator('#app-tabs [data-tab="checklist"]').click()
         page.locator('[data-check="mochila"]').check()
         assert '33 % completado' in page.locator('#app-content').inner_text()
         results.append('HU-038 checklist: PASS')
-        page.locator('[data-tab="progreso"]').click()
+        page.locator('#app-tabs [data-tab="progreso"]').click()
         assert 'Simulacro' in page.locator('#app-content').inner_text()
         results.append('HU-040 historial: PASS')
         # Persistence is proved by retaining the in-memory localStorage shim while re-mounting.
@@ -86,7 +88,7 @@ def run():
         page.set_content(HTML, wait_until="domcontentloaded", timeout=15000)
         page.add_style_tag(content=CSS)
         page.add_script_tag(content=JS)
-        page.locator('[data-tab="progreso"]').click()
+        page.locator('#app-tabs [data-tab="progreso"]').click()
         assert 'Simulacro' in page.locator('#app-content').inner_text()
         results.append('Persistencia local al recargar documento: PASS')
         assert not errors,errors

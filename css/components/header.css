@@ -1,49 +1,44 @@
-/* components/header.css — SismoListo, estilos por responsabilidad. */
-
+/* Cabecera: escala del imagotipo observada en TB1 cap. IV, legibilidad en desktop. */
 .site-header {
   position: sticky;
   top: 0;
   z-index: 30;
-  background: rgba(255,255,255,.97);
+  background: rgba(255, 255, 255, .98);
   border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(12px);
 }
-
 .nav-shell {
-  min-height: 68px;
+  min-height: 84px;
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: space-between;
+  gap: clamp(12px, 1.6vw, 22px);
 }
-
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 9px;
-  color: var(--blue);
-  font-weight: 850;
-  font-size: 1.16rem;
+  flex-shrink: 0;
+  gap: 10px;
   text-decoration: none;
   white-space: nowrap;
-  letter-spacing: -.03em;
+  line-height: 1;
 }
-
-.brand-accent {
-  color: var(--green);
-}
-
-.brand-mark {
+/* Reconstrucción tipográfica NO definitiva: la captura TB1 mide 70x22px y es opaca.
+   Se conserva el PNG original en assets/images/brand para futura sustitución. */
+.brand-symbol {
+  display: inline-block;
+  flex: 0 0 auto;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  width: 27px;
-  height: 27px;
-  display: inline-grid;
-  place-items: center;
-  background: var(--blue);
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 850;
+  background: radial-gradient(circle, #fff 0 27%, var(--blue) 29% 100%);
+  box-shadow: inset 0 0 0 1px rgba(0, 66, 139, .1);
 }
-
-/* Logotipo del mockup TB1, extraído de la captura incrustada en 4.3.2. */
-.brand img { display: block; width: 112px; height: auto; object-fit: contain; }
+.brand-name {
+  color: var(--blue);
+  font-family: var(--font-title);
+  font-size: clamp(1.22rem, 1.6vw, 1.42rem);
+  font-weight: 700;
+  letter-spacing: -.035em;
+}
+.brand:focus-visible { outline: 3px solid var(--blue); outline-offset: 6px; border-radius: 6px; }
 .site-header .container { max-width: 1200px; }
