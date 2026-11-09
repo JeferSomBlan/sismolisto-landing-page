@@ -1,31 +1,7 @@
-/* components/navbar.css — SismoListo, estilos por responsabilidad. */
-
-.site-nav {
-  display: flex;
-  gap: 14px;
-  align-items: center;
-  flex: 1;
-  justify-content: center;
-}
-
-.site-nav a {
-  font-size: .79rem;
-  font-weight: 650;
-  white-space: nowrap;
-  text-decoration: none;
-  color: #35485d;
-}
-
-.site-nav a:hover,.site-nav a:focus-visible,.text-link:hover {
-  text-decoration: underline;
-  color: var(--blue);
-}
-
-.menu-toggle {
-  display: none;
-}
-
-.site-nav a:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; border-radius: 3px; }
-
-/* 4.2.4: la navegación muestra la sección seleccionada. */
-.site-nav a[aria-current="location"] { color:var(--blue-dark); text-decoration:underline; text-decoration-thickness:2px; text-underline-offset:8px; }
+/* Navegación del Landing Page. Anchura y legibilidad coherentes con 4.1.2 / 4.3.2. */
+.site-nav { display:flex; align-items:center; justify-content:center; gap:clamp(12px,1.28vw,20px); flex:1; min-width:0; }
+.site-nav a { color:#35485d; text-decoration:none; white-space:nowrap; font-size:1rem; line-height:1.45; font-weight:600; padding:12px 0; }
+.site-nav a:hover,.site-nav a:focus-visible,.text-link:hover { color:var(--blue-dark); text-decoration:underline; }
+.site-nav a[aria-current="location"] { color:var(--blue-dark); text-decoration:underline; text-underline-offset:7px; text-decoration-thickness:2px; }
+.site-nav a:focus-visible { outline:3px solid var(--blue); outline-offset:5px; border-radius:3px; }
+.menu-toggle { display:none; }

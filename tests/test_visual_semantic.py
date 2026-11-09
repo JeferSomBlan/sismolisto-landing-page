@@ -19,12 +19,12 @@ with sync_playwright() as p:
   page=browser.new_page(viewport={'width':width,'height':900})
   mount(page)
   assert page.evaluate('document.documentElement.scrollWidth <= window.innerWidth'),f'overflow @{width}'
-  assert page.evaluate('document.querySelector(".brand img").naturalWidth>0')
+  assert page.locator(".brand .brand-symbol").count()==2 and page.locator(".brand .brand-name").first.inner_text()=="SismoListo"
   nav=page.locator('#site-nav a').all_text_contents()
   assert nav==['Inicio','Problema','Cómo funciona','Simulacros','Beneficios','Recursos','Contacto'],nav
   assert page.locator('h1').count()==1
   assert page.get_by_role('heading',name='Prepárate hoy. Actúa con más claridad.').count()==1
-  results.append(f'{width}px: sin desbordamiento, logotipo local cargado, navegación y H1 OK')
+  results.append(f'{width}px: sin desbordamiento, marca sin fondo raster opaco, navegación y H1 OK')
   if width==390:
    page.locator('#menu-toggle').click()
    assert page.locator('#site-nav').is_visible()

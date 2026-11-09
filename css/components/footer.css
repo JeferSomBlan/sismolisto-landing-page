@@ -1,8 +1,12 @@
 /* Footer claro: usa el logotipo azul del mockup sin alterar sus colores originales. */
-.site-footer { background:#f5f7fa; padding:32px 0; color:var(--text); border-top:1px solid var(--border); }
+.site-footer { background:#f5f7fa; padding:48px 0; color:var(--text); border-top:1px solid var(--border); }
 .footer-flex { display:flex; justify-content:space-between; align-items:start; gap:24px; }
-.site-footer p { color:var(--muted); font-size:.83rem; margin:12px 0 0; }
+.site-footer p { color:var(--muted); font-size:1rem; margin:12px 0 0; }
 .footer-brand { color:var(--blue); }
 .footer-links { display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
-.footer-links a,.footer-button { font-size:.84rem; color:var(--blue-dark); background:none; border:0; padding:0; text-decoration:none; }
+.footer-links a,.footer-button { font-size:1rem; color:var(--blue-dark); background:none; border:0; padding:0; text-decoration:none; }
 .footer-links a:hover,.footer-button:hover { text-decoration:underline; }
+
+.site-footer .brand-name { font-size:1.25rem; }
+.footer-links a,.footer-button { min-height:44px; display:inline-flex; align-items:center; padding:8px 0; font-family:inherit; font-weight:600; cursor:pointer; }
+.footer-links a:focus-visible,.footer-button:focus-visible { outline:3px solid var(--blue); outline-offset:3px; }

@@ -1,0 +1,19 @@
+{
+  "fuente": "Baseline 32 CUMPLE / 8 NO CUMPLE / 60 NO COMPROBADO, 2026-11-08",
+  "actual": {
+    "CUMPLE": 72,
+    "NO COMPROBADO": 28
+  },
+  "hu_completas_local": 32,
+  "hu_parciales_local": 8,
+  "hu_no_comprobadas": 10,
+  "no_es_certificacion_core_30": true,
+  "no_es_despliegue_publico": true,
+  "simulaciones": [
+    "HU-021",
+    "HU-030",
+    "HU-034",
+    "HU-039",
+    "HU-041"
+  ]
+}

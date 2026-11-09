@@ -1,27 +1,12 @@
-/* base/responsive.css — SismoListo, estilos por responsabilidad. */
-
-@media (max-width:1080px) {
-
-  .site-nav {
-    gap: 11px;
-  }
-
-  .site-nav a {
-    font-size: .76rem;
-  }
-
-  .nav-cta {
-    font-size: .77rem;
-    padding: 9px;
-  }
-
-  .features-grid,.steps-grid {
-    grid-template-columns: repeat(2,1fr);
-  }
-
-  .hero-grid {
-    gap: 24px;
-  }
+@media (max-width:1150px) {
+  .menu-toggle { display:grid; place-items:center; margin-left:auto; min-width:48px; min-height:48px; border:1px solid var(--border); background:#fff; border-radius:9px; font-size:1.25rem; cursor:pointer; }
+  .nav-shell { flex-wrap:wrap; gap:12px; }
+  .site-nav { order:3; flex-basis:100%; display:none; align-items:stretch; flex-direction:column; padding:8px 0 16px; gap:0; }
+  .site-nav.is-open { display:flex; }
+  .site-nav a { padding:14px 12px; font-size:1rem; border-bottom:1px solid #e8eef6; }
+  .nav-cta { display:none; }
+  .features-grid,.steps-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }
+  .hero-grid { gap:24px; }
 }
 
 @media (max-width:800px) {
@@ -194,6 +179,26 @@
 }
 @media (max-width:360px) {
   .nav-shell { gap:8px; }
-  .brand img { width:99px; }
+  .brand-symbol { width:27px; height:27px; }
+  .brand-name { font-size:1.15rem; }
   .hero h1 { font-size:2.15rem; }
+}
+
+/* Ajustes finales de la cabecera responsive. */
+@media (max-width:1150px) {
+  .nav-shell { min-height:72px; }
+}
+@media (max-width:590px) {
+  .site-nav a { font-size:1rem; }
+  .brand-symbol { width:30px; height:30px; }
+  .brand-name { font-size:1.25rem; }
+  .menu-toggle { min-width:48px; min-height:48px; }
+}
+
+/* Menú colapsado legible también en tablet y escritorio estrecho. */
+@media (max-width:1150px) {
+  .site-nav a {
+    font-size: 1rem;
+    padding: 14px 12px;
+  }
 }

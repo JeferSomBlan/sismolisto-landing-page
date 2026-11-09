@@ -24,7 +24,7 @@
 }
 
 .steps-grid p,.feature-card p,.scenario-card p,.resource-card p {
-  font-size: .91rem;
+  font-size: 1rem;
 }
 
 .step-no {
@@ -200,3 +200,13 @@
 .benefit-box .check-list li { display:block; padding:20px 20px 20px 40px; position:relative; min-height:112px; border:1px solid var(--border); border-radius:var(--radius-card); background:#fff; font-weight:600; }
 .benefit-box .check-list li::before { position:absolute; left:16px; top:20px; padding:0; }
 @media (max-width: 767px) { .benefit-box .check-list { grid-template-columns:1fr; } }
+
+/* HU-002: evidencia contextual verificable sin confundir simulacro con pronóstico. */
+.problem-evidence{text-align:left;margin:28px auto 14px;border:1px solid #cddfed;background:#f6faff;border-left:4px solid var(--blue);border-radius:12px;padding:20px 24px;max-width:860px;}
+.problem-evidence h3{margin:0 0 8px;font-size:1.13rem;}
+.problem-evidence p{font-size:1rem;line-height:1.6;margin:8px 0;}
+.problem-evidence .source-note{font-size:.88rem;}
+.problem-evidence a{color:#115b9b;text-decoration:underline;}
+.contact-form .is-invalid{border:2px solid #ba2e26;background:#fff7f6;}
+
+.section-next-action{display:flex;justify-content:center;margin-top:24px;}

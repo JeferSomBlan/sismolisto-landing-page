@@ -1,0 +1,266 @@
+[
+  {
+    "HU": "HU-002",
+    "Escenario": "Escenario 1",
+    "Prueba": "Contexto de Lima/Callao sustentado",
+    "Resultado": "PASS",
+    "Detalle": "Ejercicio hipotético identificado y dos fuentes oficiales enlazadas",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-001",
+    "Escenario": "Escenario 2",
+    "Prueba": "CTA Ver cómo funciona navega",
+    "Resultado": "PASS",
+    "Detalle": "Navega al ancla documentada",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-002",
+    "Escenario": "Escenario 2",
+    "Prueba": "Relación problema-solución",
+    "Resultado": "PASS",
+    "Detalle": "Navega a Cómo funciona",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-003",
+    "Escenario": "Escenario 1",
+    "Prueba": "Cuatro etapas principales",
+    "Resultado": "PASS",
+    "Detalle": "Cuatro etapas visibles y numeradas",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-004",
+    "Escenario": "Escenario 1",
+    "Prueba": "Cuatro tarjetas funcionales",
+    "Resultado": "PASS",
+    "Detalle": "Cuatro capacidades justificadas",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-004",
+    "Escenario": "Escenario 2",
+    "Prueba": "Vista funcional de evaluación",
+    "Resultado": "PASS",
+    "Detalle": "Abre la evaluación demostrativa; no pretende ser captura del móvil",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-007",
+    "Escenario": "Escenario 1",
+    "Prueba": "Consulta simulacros",
+    "Resultado": "PASS",
+    "Detalle": "3 escenarios con ámbito y duración visible",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-007",
+    "Escenario": "Escenario 2",
+    "Prueba": "Abrir demostración",
+    "Resultado": "PASS",
+    "Detalle": "CTA inicia escenario interactivo con tres elecciones",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-008",
+    "Escenario": "Escenario 2",
+    "Prueba": "Filtrar beneficios por perfil",
+    "Resultado": "PASS",
+    "Detalle": "Contenido cambia al seleccionar Oficinas",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-011",
+    "Escenario": "Escenario 1",
+    "Prueba": "Consulta recursos",
+    "Resultado": "PASS",
+    "Detalle": "3 recursos breves visibles",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-011",
+    "Escenario": "Escenario 2",
+    "Prueba": "Filtrar por tema",
+    "Resultado": "PASS",
+    "Detalle": "Filtro deja recurso coincidente",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-012",
+    "Escenario": "Escenario 1",
+    "Prueba": "Mostrar perfiles",
+    "Resultado": "PASS",
+    "Detalle": "Ambos perfiles visibles",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-013",
+    "Escenario": "Escenario 1",
+    "Prueba": "Mostrar perfiles",
+    "Resultado": "PASS",
+    "Detalle": "Ambos perfiles visibles",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-012",
+    "Escenario": "Escenario 2",
+    "Prueba": "Seleccionar perfil",
+    "Resultado": "PASS",
+    "Detalle": "Contexto elegido se refleja en el área de demostración",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-013",
+    "Escenario": "Escenario 2",
+    "Prueba": "Seleccionar perfil",
+    "Resultado": "PASS",
+    "Detalle": "Contexto elegido se refleja en el área de demostración",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-015",
+    "Escenario": "Escenario 1",
+    "Prueba": "Opciones de compartir",
+    "Resultado": "PASS",
+    "Detalle": "Se muestran WhatsApp, Facebook, LinkedIn y Copiar enlace",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-015",
+    "Escenario": "Escenario 2",
+    "Prueba": "Copiar vínculo",
+    "Resultado": "PASS",
+    "Detalle": "Copia URL y muestra Enlace copiado",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-016",
+    "Escenario": "Escenario 1",
+    "Prueba": "Consulta de privacidad",
+    "Resultado": "PASS",
+    "Detalle": "Información de datos y limitación visible",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-017",
+    "Escenario": "Escenario 1",
+    "Prueba": "Vista móvil 390px",
+    "Resultado": "PASS",
+    "Detalle": "Columna responsive sin desbordamiento y menú colapsado",
+    "Entorno": "Chromium local/memoria, 390px"
+  },
+  {
+    "HU": "HU-017",
+    "Escenario": "Escenario 2",
+    "Prueba": "Vista escritorio 1440px",
+    "Resultado": "PASS",
+    "Detalle": "Menú desktop completo sin desbordamiento",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-019",
+    "Escenario": "Escenario 1",
+    "Prueba": "Identidad en header",
+    "Resultado": "PASS",
+    "Detalle": "Marca y símbolo presentes en header",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-020",
+    "Escenario": "Escenario 2",
+    "Prueba": "Enlaces del pie",
+    "Resultado": "PASS",
+    "Detalle": "Enlace de contacto desde footer funciona",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-022",
+    "Escenario": "Escenario 2",
+    "Prueba": "Volver arriba oculto al inicio",
+    "Resultado": "PASS",
+    "Detalle": "Volver arriba oculto al cargar",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-022",
+    "Escenario": "Escenario 1",
+    "Prueba": "Volver arriba",
+    "Resultado": "PASS",
+    "Detalle": "Botón aparece al desplazarse y retorna a inicio",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-024",
+    "Escenario": "Escenario 1",
+    "Prueba": "Abrir FAQ",
+    "Resultado": "PASS",
+    "Detalle": "La pregunta despliega su respuesta",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-024",
+    "Escenario": "Escenario 2",
+    "Prueba": "FAQ exclusivas",
+    "Resultado": "PASS",
+    "Detalle": "Abrir otra cierra la anterior",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-025",
+    "Escenario": "Escenario 1",
+    "Prueba": "CTA secundario",
+    "Resultado": "PASS",
+    "Detalle": "CTA secundario navega a sección",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-025",
+    "Escenario": "Escenario 2",
+    "Prueba": "Retomar CTA principal",
+    "Resultado": "PASS",
+    "Detalle": "CTA principal al final de la sección",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-026",
+    "Escenario": "Escenario 1",
+    "Prueba": "Compartir recurso",
+    "Resultado": "PASS",
+    "Detalle": "URL específica del recurso en opciones de compartir",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-026",
+    "Escenario": "Escenario 2",
+    "Prueba": "Cancelar compartir",
+    "Resultado": "PASS",
+    "Detalle": "Cancelar mantiene el recurso visible",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-028",
+    "Escenario": "Escenario 2",
+    "Prueba": "Menú móvil con cierre",
+    "Resultado": "PASS",
+    "Detalle": "Menú accesible con apertura y cierre",
+    "Entorno": "Chromium local/memoria, 390px"
+  },
+  {
+    "HU": "HU-029",
+    "Escenario": "Escenario 2",
+    "Prueba": "Foco de teclado",
+    "Resultado": "PASS",
+    "Detalle": "Foco visible en primer enlace",
+    "Entorno": "Chromium local/memoria, 1440px"
+  },
+  {
+    "HU": "HU-043",
+    "Escenario": "Escenario 1",
+    "Prueba": "Recomendaciones tras riesgo",
+    "Resultado": "PASS",
+    "Detalle": "Se muestran recomendaciones ligadas a los riesgos",
+    "Entorno": "Chromium local/memoria, 1440px"
+  }
+]
